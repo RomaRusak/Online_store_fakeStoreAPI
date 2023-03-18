@@ -1,0 +1,26 @@
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    transition:  .2s;
+    cursor: pointer;
+    padding: 4px;
+    position: relative;
+}
+
+.active {
+    text-shadow: 1px 2px 4px white;
+}
+
+.pending {
+
+}

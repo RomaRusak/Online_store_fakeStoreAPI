@@ -1,0 +1,39 @@
+.paginationList {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    padding: 0 40px;
+}
+
+.paginationLink {
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.paginationActive {
+    background-color: lightgreen;
+}
+
+.pagination-arrow-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pagination-arrow-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.pagination-arrow-right > img {
+    transform: rotate(180deg);
+}
+
+.pagination-arrow-left,
+.pagination-arrow-right {
+    cursor: pointer;
+}

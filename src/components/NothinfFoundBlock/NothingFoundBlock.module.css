@@ -1,0 +1,11 @@
+.nothing-found-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nothing-found-wrapper > p {
+    font-size: 24px;
+    font-weight: 600;
+}

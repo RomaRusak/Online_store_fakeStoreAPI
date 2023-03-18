@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    max-width: 1400px;
+    margin: 10px auto;
+    box-shadow: 0 5px 7px black;
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+}

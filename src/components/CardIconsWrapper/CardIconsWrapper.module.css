@@ -1,0 +1,21 @@
+.cart-icons-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cart-icons-gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, .7fr));
+    grid-auto-rows: minmax(auto, 490px);
+    justify-content: center;
+    grid-gap: 10px;
+    min-height: 73vh;
+}
+
+.pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

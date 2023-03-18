@@ -1,0 +1,45 @@
+.sort-forms-wrapper {
+    padding: 10px 15px;
+    position: sticky;
+    top: calc(50% - 58px);
+    left: 0;
+}
+
+.active {
+
+}
+
+.filtersAccordeonHeader {
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 3px lightgray;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.filtersAccordeonHeader > img {
+    height: 100%;
+    width: 20px;
+    transition: all .3s ease-in-out;
+    transform: rotate(180deg);
+}
+
+.filtersAccordeonHeaderActive > img {
+    transform: rotate(0);
+}
+
+.filtersAccordeonHeader + div {
+    max-height: 1000px;
+    transition: all .3s ease-in-out;
+}
+
+.filtersAccordeonHeaderActive + div {
+    max-height: 0px ;
+    overflow: hidden;
+}

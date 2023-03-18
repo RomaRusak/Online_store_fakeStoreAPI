@@ -1,0 +1,23 @@
+.cart-button {
+    padding: 2px 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    text-shadow: 1px 1px 1px black;
+}
+
+.cart-button-increment {
+    background-color: lightblue;
+    color: azure;
+}
+
+.cart-button-decrement {
+    background-color: azure;
+    color: lightblue;
+}
+
+.cart-button:active {
+    background-color: lightskyblue;
+}

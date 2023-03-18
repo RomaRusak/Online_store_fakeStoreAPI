@@ -1,0 +1,5 @@
+.selectSort-wrapper {
+    grid-column:  1/4;
+    display: flex;
+    justify-content: flex-end;
+}
