@@ -22,7 +22,7 @@ const SortFormWrapper = () => {
             className={`${styles.filtersAccordeonHeader} ${hideFilters.categoryFilter ? styles.filtersAccordeonHeaderActive : ''}`}
             onClick={() => {setHideFiltersHandler('categoryFilter')}}
             >
-                <p>категории</p>
+                <p>categories</p>
                 <img
                 src={arrowToBottomIcon} 
                 />
@@ -32,7 +32,7 @@ const SortFormWrapper = () => {
             className={`${styles.filtersAccordeonHeader} ${hideFilters.priceFilter ? styles.filtersAccordeonHeaderActive : ''}`}
             onClick={() => {setHideFiltersHandler('priceFilter')}}
             >
-                <p>цена</p>
+                <p>price</p>
                 <img 
                 src={arrowToBottomIcon}
                 />

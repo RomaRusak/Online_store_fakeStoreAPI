@@ -111,7 +111,7 @@ const CardIconsWrapper = () => {
                     />
                 </div>
               </>
-            : <h2>ничего не найдено</h2>
+            : <h2>Nothing found</h2>
             }
         </motion.div>
     )

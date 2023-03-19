@@ -22,7 +22,7 @@ const CartWidget = () => {
                     className={styles['cart-widget-icon']}
                     />
                     <p className={styles['cart-widget-product-counter']}>
-                        {productsCounter == 0 ? 'Bag is empty' : productsCounter > 1 ?  productsCounter + ' items' : productsCounter + ' item'}
+                        {productsCounter == 0 ? 'Cart is empty' : productsCounter > 1 ?  productsCounter + ' items' : productsCounter + ' item'}
                     </p>
                     <p className={styles['cart-widget-price-counter']}>
                         {productsCounter > 0 ? priceCounter + ' $' : ''}

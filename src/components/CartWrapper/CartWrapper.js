@@ -38,7 +38,7 @@ const CartWrapper = () => {
                     <motion.h2 
                     initial={{x: -30}} 
                     animate={{x: 0}}>
-                    ваша корзина пуста
+                    Your cart is empty
                     </motion.h2>
                 )
             }

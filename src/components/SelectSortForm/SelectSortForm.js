@@ -9,10 +9,10 @@ const SelectSortForm = (props) => {
     return (
         <div className={styles['selectSort-wrapper']}> 
             <select onChange={changeSelectSort} value={props.selectSormFormState}>
-                <option value="increase">по возрастанию</option>
-                <option value="decrease">по убыванию</option>
-                <option value="category">по категориям</option>
-                <option value="rating">по рейтингу</option>
+                <option value="increase">in increasing</option>
+                <option value="decrease">in decreasing</option>
+                <option value="category">by categories</option>
+                <option value="rating">by rating</option>
             </select>
         </div>
     )
