@@ -5,3 +5,9 @@
     grid-auto-columns: auto;
     grid-row-gap: 40px;
 }
+
+.cart-counter-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

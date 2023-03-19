@@ -23,7 +23,7 @@ const CartItem = (props) => {
         >
             <h3 className={styles['cart-item-title']}>{props.name} $</h3>
             <div className={styles['cart-item-service']}>
-                <p className={styles['cart-item-price']}>{props.price} $</p>
+                <p className={styles['cart-item-price']}>{props.price.toFixed(2)} $</p>
                 <div className={styles['cart-item-counterWrapper']}>
                     <p className={styles.big}>X</p> 
                     {props.counter}
