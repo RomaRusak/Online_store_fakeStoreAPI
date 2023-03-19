@@ -3,6 +3,7 @@ import { useDispatch} from 'react-redux'
 import dataStoreGet from "../../actions/dataStoreGet"
 import Preloader from "../../UI/Preloader/Preloader"
 import { Outlet } from "react-router-dom"
+import styles from './Main.module.css'
 
 const Main = () => {
 
@@ -27,7 +28,7 @@ const Main = () => {
     }, [])
 
     return (
-        <main>
+        <main className={styles.main}>
             {loading && <Preloader />}
             <Outlet />
         </main>

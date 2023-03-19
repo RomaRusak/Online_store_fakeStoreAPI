@@ -8,6 +8,7 @@
     overflow: hidden;
     transition: all .3s ease-in-out;
     box-shadow: 1px 4px 8px black;
+    background-color: #FFF;
 }
 
 .card-icon-wrapper:hover {

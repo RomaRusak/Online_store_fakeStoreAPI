@@ -1,4 +1,6 @@
 .aside {
     box-shadow: 4px 6px 6px lightslategray;
     min-width: 200px;
+    position: relative;
+    z-index: 10;
 }

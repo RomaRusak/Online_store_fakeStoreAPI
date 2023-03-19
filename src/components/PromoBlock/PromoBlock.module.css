@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.promo-block-wrapper {
+    padding: 40px 20px 20px;
+    height: 100%;
+    background-image: url(../../images/promoBlockBackground.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-family: 'Poppins', sans-serif;
+}
+
+.promo-block-title {
+    margin-top: 50px;
+    font-size: 82px;
+    line-height: 100px;
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.blue {
+    color: #002866;
+}
+
+.promo-block-description {
+    font-size: 40px;
+    line-height: 45px;
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.promo-block-button {
+    padding: 18px 25px;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 35px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    background-color: #6F4E37;
+    color: #fff;
+    border-radius: 25px;
+    text-shadow: 1px 1px 1px black;
+}
